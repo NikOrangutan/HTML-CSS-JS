@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background-color: green;
+  background-color: lightgreen;
   text-decoration: underline;;
   text-align: center;
   font-family: 'Times Old Roman', Arial, serif;
@@ -12,10 +12,22 @@ body {
 }
 p {  height: 100%;
   width: 100%;
-  background-color: green;
+  background-color: lightgreen;
   text-decoration: underline;;
   text-align: center;
-  font-family: 'Times Old Roman', Arial, serif;
+  font-family: fantasy;
   font-size: 30px;
   font-weight: bold;
   }
+.small {
+  font-size: 13px;
+}
+.picto {
+  transition-duration: 2s;
+}
+.picto:hover {
+  transform: rotate(360deg);
+}
+.picto:active {
+  transform: rotate(3000000deg) scale(30);
+}
